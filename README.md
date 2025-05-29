@@ -9,9 +9,23 @@
 * [02/19] 📊 We released our high high-quality dialogue training corpus on huggingface ([sotopia-omega](https://huggingface.co/datasets/WENYUAN98/sotopia-omega)).
 
 ## Introduction
+
+<div align="center">
+  <img src="fig/intro.png" style="width:55%; height:auto;" />
+</div>
+
 We propose an adaptive fast-slow thinking framework for high-quality dialogue data synthesis: **SOTOPIA-Ω**. This framework addresses the **negotiation deadlock** issue in social conversations.
 
+
+<div align="center">
+  <img src="fig/workflow.png" style="width:100%; height:auto;" />
+</div>
+
 Despite the abundance of prior social strategies possessed by humans, there remains a paucity of research dedicated to their transfer and integration into social agents. Our proposed SOTOPIA-Ω framework aims to address and bridge this gap, with a particular focus on enhancing the social capabilities of language agents. This framework dynamically injects a variety of social strategies into expert agents, thereby automating the construction of high-quality social dialogue training corpus. Additionally, we introduce the concept of Social Instruction Following (S-IF) and propose two new S-IF evaluation metrics that are complementary to social capability. We demonstrate that several 7B models trained on high-quality corpus not only significantly surpasses the expert agent (GPT-4) in achieving social goals but also enhances S-IF performance. Analysis and variant experiments validate the advantages of dynamic construction, which can especially break the agent's prolonged deadlock.
+
+<div align="center">
+  <img src="fig/main_exp.png" style="width:100%; height:auto;" />
+</div>
 
 ## 📖 Contents
 
