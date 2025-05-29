@@ -8,7 +8,7 @@
 * [02/19] 🔥 We released our model checkpoints on huggingface ([mistral-7B-DSI](https://huggingface.co/WENYUAN98/sotopia-omega_mistral-7B-DSI), [llama3-8B-DSI](https://huggingface.co/WENYUAN98/sotopia-omega_llama3_8B_DSI), [qwen2.5-7B-DSI](https://huggingface.co/WENYUAN98/sotopia-omega_qwen2.5-7B-DSI)).
 * [02/19] 📊 We released our high high-quality dialogue training corpus on huggingface ([sotopia-omega](https://huggingface.co/datasets/WENYUAN98/sotopia-omega)).
 
-## Introduction
+## 🚀 Introduction
 
 <div align="center">
   <img src="figure/intro.png" style="width:55%; height:auto;" />
@@ -49,3 +49,18 @@ Despite the abundance of prior social strategies possessed by humans, there rema
   The generated dataset is registered under the name "sotopia_omega". Modify the local LLM path and set the output checkpoint directory.
 
 - For inference and evaluation, please refer to the official SOTOPIA repository (https://github.com/sotopia-lab/sotopia).
+
+
+## Citation
+If you find our work useful, please consider citing our paper:
+```bibtex
+@misc{zhang2025sotopiaomegadynamicstrategyinjection,
+      title={{SOTOPIA-$\Omega$}: Dynamic Strategy Injection Learning and Social Instruction Following Evaluation for Social Agents}, 
+      author={Wenyuan Zhang and Tianyun Liu and Mengxiao Song and Xiaodong Li and Tingwen Liu},
+      year={2025},
+      eprint={2502.15538},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.15538}, 
+}
+```
